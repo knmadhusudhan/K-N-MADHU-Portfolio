@@ -396,19 +396,20 @@
     box-shadow:2px 2px 3px 4px violet;
     margin-top: 40px;
     margin-bottom: 40px;
-}/*
+}
 .contactusa1{
     height:fit-content;
-    width:650px;
+    width:fit-content;
     display:block;
     background-image: linear-gradient(to right top,rgb(165, 10, 95),rgb(64, 21, 182),rgb(25, 228, 150),rgb(143, 235, 23),rgb(123, 4, 4));
     font-family: algerian;
     font-weight: bolder;
     box-shadow:-3.5px -3.5px 1px 4px rgb(57, 54, 57);
-    margin-left:50px;
+    margin-left:10px;
     margin-top: 40px;
     margin-bottom: 40px;
-}*/
+    margin-right:0px;
+}
 footer{
     background-color:grey;
     height:50px;
