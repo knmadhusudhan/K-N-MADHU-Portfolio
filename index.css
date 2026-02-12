@@ -1,0 +1,718 @@
+        
+    
+       /* header css */
+        header{
+            position:fixed;
+            left:0px;
+            right:0px;
+            top:0px;
+            margin-top:0px;
+        }
+        /* navigation bar css
+        list style manage in nav bar 
+        nav bar flexing, hovering,anchor decoration
+        smooth animation */
+        .navbar {
+            height: 100px;
+            background-image: linear-gradient(to left, pink, yellow, skyblue);
+            box-shadow: 2px 2px 3px 3px rgb(19, 19, 19);
+            font-weight: bolder;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+        
+
+        li {
+            list-style-type: none;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .navbar ul {
+            display: flex;
+            justify-content: flex-end;
+            gap: 15px;
+            margin-top:10px;
+            margin-right: 20px;
+
+        }
+
+        .navbar ul li:hover {
+            border-radius: 3px;
+            border: solid 3px orange;
+            box-sizing: border-box;
+            box-shadow: 3px -3px 2px 1px rgb(63, 91, 30);
+            background-color: greenyellow;
+            font-family: algerian;
+            animation-name: animates;
+            animation-duration: 1s;
+            animation-timing-function: ease-in;
+            animation-iteration-count: linear;
+            animation-fill-mode:backwards;
+        }
+
+        @keyframes animates {
+            from {
+                transform: scale(1);
+            }
+
+            to {
+                transform: scale(1.5);
+            }
+        }
+        /* home css code
+        image radius height width designing,flexing,button,hovering,smoooth,animation */
+        .homea1 {
+            height: 300px;
+            width: 300px;
+            border-radius: 50%;
+            margin-top: 50px;
+            margin-left: 50px;
+        }
+
+        .homea2 {
+            margin: 100px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            background-color:rgb(134, 24, 24);
+            font-family:'Times New Roman';
+            text-align: center;
+            border-radius: 20px;
+            color:whitesmoke
+        }
+        
+        .home .homea{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+            margin-top:75px;
+        }
+        .homeb1{
+            margin: 100px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            background-color:rgb(134, 24, 24);
+            font-family:'Times New Roman';
+            color:whitesmoke;
+            text-align: center;
+            border-radius: 20px;
+        
+        }
+        .homeb2{
+            height:300px;
+            width:300px;
+            border-radius:0px 40px;
+            border:solid 5px darkorange;
+            
+        }
+        .homeb{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            gap:50px;
+
+        }
+        button{
+            height:50px;
+            width:150px;
+            border-radius:25px;
+            background-color: black;
+            color:whitesmoke;
+            font-family: algerian;
+        }
+        button:hover{
+            background-color: darkorange;
+            font-size:40px;
+            font-family: algerian;
+            animation-name: button;
+            animation-duration: 4s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: linear;
+            animation-fill-mode:both;
+        }
+        @keyframes button{
+            from{
+                transform: scale(1);
+            }
+            to{
+                transform:scale(0.75);
+            }
+        }
+
+        /* about page designing with colors and effects */
+        /*heading*/
+        .aboutheading{
+            color:red;
+            height:30px;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            background-color:darkgrey;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight:bolder;
+            text-align: center;
+            box-shadow: 2px 2px 3px 3px violet;
+        }
+        .dataa1{
+            margin-top:20px;
+        }
+        .dataa2{
+            margin-top:150px;
+            background-color:rgb(134, 24, 24);
+            font-family:'Times New Roman';
+            text-align: center;
+            border-radius: 20px;
+            text-indent: 100px;
+
+        }
+        .about .data{
+            display:flex;
+         justify-content: center;
+            align-items:center;
+            gap:100px;
+        }
+        /* content hover of pages */
+        .home .homea2:hover{
+            border:solid 3px rgb(11, 242, 107);
+            animation-name:border-color;
+            animation-duration:10s;
+            animation-iteration-count:ease-in-out;
+        }
+        @keyframes border-color{
+            0%{
+                
+                border:solid 5px rgb(66, 1, 1);
+                box-shadow:2px 0px 3px 3px rgb(66,1,1);
+            }
+             15%{
+                
+                border:solid 7px rgb(239, 24, 239);
+                box-shadow:2px 0px 3px 3px rgb(239,24,239);
+            }
+             30%{
+                
+                border:solid 7px rgb(247, 13, 13);
+                box-shadow:2px 0px 3px 3px rgb(247,13,13);
+            }
+             45%{
+                
+                border:solid 7p rgb(244, 24, 244);
+                box-shadow:2px 0px 3px 3px rgb(244, 24, 244);
+            }
+            60%{
+                border:solid 7px rgb(213, 26, 126);
+                box-shadow:2px 0px 3px 3px rgb(213, 26, 126);
+            }
+            75%{
+                border:solid 7px rgb(106, 17, 17);
+                box-shadow:2px 0px 3px 3px rgb(106, 17, 17);
+            }
+            90%{
+                border:solid 7px yellow;
+                box-shadow:2px 0px 3px 3px rgb(244, 24, 244);
+            }
+            100%{
+                border:solid 7px darkgreen;
+                box-shadow:2px 0px 3px 3px rgb(244, 24, 244);
+            }
+        }
+        /* content hover of pages */
+           .homeb .homeb1:hover{
+            border:solid 3px rgb(11, 242, 107);
+            animation-name:border-color;
+            animation-duration:10s;
+            animation-iteration-count:ease-in-out;
+        }
+        @keyframes border-color{
+            0%{
+                
+                border:solid 5px rgb(66, 1, 1);
+                box-shadow:2px 0px 3px 3px rgb(66,1,1);
+            }
+             15%{
+                
+                border:solid 7px rgb(239, 24, 239);
+                box-shadow:2px 0px 3px 3px rgb(239,24,239);
+            }
+             30%{
+                
+                border:solid 7px rgb(247, 13, 13);
+                box-shadow:2px 0px 3px 3px rgb(247,13,13);
+            }
+             45%{
+                
+                border:solid 7p rgb(244, 24, 244);
+                box-shadow:2px 0px 3px 3px rgb(244, 24, 244);
+            }
+            60%{
+                border:solid 7px rgb(213, 26, 126);
+                box-shadow:2px 0px 3px 3px rgb(213, 26, 126);
+            }
+            75%{
+                border:solid 7px rgb(106, 17, 17);
+                box-shadow:2px 0px 3px 3px rgb(106, 17, 17);
+            }
+            90%{
+                border:solid 7px yellow;
+                box-shadow:2px 0px 3px 3px rgb(244, 24, 244);
+            }
+            100%{
+                border:solid 7px darkgreen;
+                box-shadow:2px 0px 3px 3px rgb(244, 24, 244);
+            }
+        }
+        /* content hover of pages */
+        .about .dataa2:hover{
+            border:solid 3px rgb(11, 242, 107);
+            animation-name:border-color;
+            animation-duration:10s;
+            animation-iteration-count:ease-in-out;
+        }
+        @keyframes border-color{
+            0%{
+                
+                border:solid 5px rgb(66, 1, 1);
+                box-shadow:2px 0px 3px 3px rgb(66,1,1);
+            }
+             15%{
+                
+                border:solid 7px rgb(239, 24, 239);
+                box-shadow:2px 0px 3px 3px rgb(239,24,239);
+            }
+             30%{
+                
+                border:solid 7px rgb(247, 13, 13);
+                box-shadow:2px 0px 3px 3px rgb(247,13,13);
+            }
+             45%{
+                
+                border:solid 7p rgb(244, 24, 244);
+                box-shadow:2px 0px 3px 3px rgb(244, 24, 244);
+            }
+            60%{
+                border:solid 7px rgb(213, 26, 126);
+                box-shadow:2px 0px 3px 3px rgb(213, 26, 126);
+            }
+            75%{
+                border:solid 7px rgb(106, 17, 17);
+                box-shadow:2px 0px 3px 3px rgb(106, 17, 17);
+            }
+            90%{
+                border:solid 7px yellow;
+                box-shadow:2px 0px 3px 3px rgb(244, 24, 244);
+            }
+            100%{
+                border:solid 7px darkgreen;
+                box-shadow:2px 0px 3px 3px rgb(244, 24, 244);
+            }
+        }
+            .about .aboutb{
+                margin-left:20px;
+
+            }
+            .span{
+                padding-left:20px;
+                padding-right:20px;
+                color:purple;
+                background-color: yellow;
+            }
+           /* 
+        
+        footer{
+            height:100px;
+            background-color: lightgray;
+            box-shadow: 2px 2px 3px 3px rgb(3, 96, 51);
+
+        
+        }
+       footer  .diva a{
+            display:flex;
+            justify-content: center;
+            align-items:center;
+            margin-top:50px;
+            
+        }
+               footer  .diva a:hover{
+                animation-name:awesome;
+                animation-duration: 1s;
+                animation-timing-function: ease-in;
+                animation-iteration-count: linear;
+                animation-fill-mode: both;
+                transition: all 3s linear;
+               }
+               @keyframes awesome{
+                from{
+                    transform: scale(1);
+                }
+                to{
+                    transform: scale(2);
+                }
+            }*/
+                /* about us css page */
+                .sec1 h2{
+                    height:30px;
+                    
+                    margin-left:30px;
+                    display:flex;
+                    justify-content: center;
+                    align-items: center;
+                    color:red;
+                    background-color:lightgray;
+                    font-family: algerian;
+                    font-weight: bolder;
+                    font-size: larger;
+                    box-shadow:2px 2px 3px 4px violet;
+                }
+                .container2  p{
+
+            font-size:medium;
+            font-weight:bolder;
+            margin-right:100px;
+            margin-top:100px;
+            word-spacing:10px;
+            border:solid 5px darkorange;
+
+
+        }
+        .continer2{
+            display:flex;
+            gap:100px;
+            justify-content: center;
+            align-items: center;
+        
+        }
+        img{
+            height:400px;
+            width:400px;
+           /* width:300px;*/
+           border-radius:0px 50px;
+           margin-left: 100px;;
+        }
+        .container  h2{
+            justify-content: flex-end;
+    
+    padding-left:20px;
+    margin-left:20px;
+    margin-top:0px;
+    padding-top:0px;
+}
+
+/* skills page css */
+.sec3 h2{
+    height:30px;
+    margin-left:30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:red;
+    background-color:lightgray;
+    font-family: algerian;
+    font-weight: bolder;
+    font-size: larger;
+    box-shadow:2px 2px 3px 4px violet;
+    
+        }
+        .sec3 h2:hover{
+    animation-name:skills;
+    animation-duration:1s;
+    animation-iteration-count:linear;
+    animation-fill-mode:forward;
+        }
+        @keyframes skills{
+            from{
+                transform: scale(1);
+                background-color:yellow;
+                box-shadow: 2px 2px 3px 3px orange;
+            }
+            to{
+                transform: scale(1);
+                background-color:yellow;
+                box-shadow: 2px 2px 3px 3px orange;
+            }
+        }
+.sec3 .container3,.image{
+    display:inline;
+    height:300px;
+    width:200px;
+    color:red;
+}
+
+/* h3a css*/
+.sec3 .container3 .h3a{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+    height:20px;
+    width:200px;
+    background-image: url("portfolio3.jpg");
+}
+/* h3b css*/
+.sec3 .container3 .h3b{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+    height:20px;
+    width:200px;
+    background-image: url("portfolio3.jpg");
+}
+/* h3c css*/
+.sec3 .container3 .h3c{
+ /* display:flex;
+  align-items: center;
+  justify-content: center; problem*/
+  text-align: center;
+    height:20px;
+    width:200px;
+    background-image: url("portfolio3.jpg");
+}
+/* h3d css*/
+.sec3 .container3 .h3d{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+    height:20px;
+    width:200px;
+    background-image: url("portfolio3.jpg");
+}
+
+.sec3 .softskills{
+    padding-top:20px;
+/*about us my hobbies part css code*/
+    
+}
+        .aboutb .h4{
+            color:purple;
+            font-size:12px;
+            background-image:linear-gradient(to right bottom,yellow,green,skyblue,orange,darksalmon,darkgreen,darkorange);
+            height:25px;
+            width:200px;
+            font-family: algerian;
+            font-weight: bolder;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+/*
+  soft skills css code
+  */
+  .technicalskills{
+    color:whitesmoke;
+    background-color:black;
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: algerian;
+    margin-top:35px;
+    width:150px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .softskills{
+    color:whitesmoke;
+    background-color:black;
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: algerian;
+    margin-top:20px;
+    width:150px;
+    height:20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .sec3 .container3{
+    margin-left:50px;
+    display:block;
+   /* color:yellow;*/
+    font-weight:bolder;
+    /*background-image: url("portfolio1.jpg");*/
+   /* background-repeat: np-repeat;*/
+    height:200px;
+    width:300px;
+    text-align: center;
+    padding-top:50px;
+    box-shadow:2px 2px 3px 3px rgb(216, 124, 4);
+  }
+  
+/*
+  soft skills css code
+  */
+.sec3 .soft{
+    display:block;
+    color:yellow;
+    font-weight:bolder;
+    text-align: center;
+    margin-left:50px;
+    font-size:15px;
+    
+
+
+}
+.sec3 .soft .softa{
+    height:25px;
+      display:flex;
+  align-items: center;
+  justify-content: center;
+    height:20px;
+    width:200px;
+    background-image: url("portfolio3.jpg");
+}
+.sec3 .soft .softb{
+    height:25px;
+      display:flex;
+  align-items: center;
+  justify-content: center;
+    height:20px;
+    width:200px;
+    background-image: url("portfolio3.jpg");
+}
+.sec3 .soft .softc{
+    height:25px;
+      display:flex;
+  align-items: center;
+  justify-content: center;
+    height:20px;
+    width:200px;
+    background-image: url("portfolio3.jpg");
+}
+.sec3 .soft .softd{
+    height:25px;
+      display:flex;
+  align-items: center;
+  justify-content: center;
+    height:20px;
+    width:200px;
+    background-image: url("portfolio3.jpg");
+}
+
+  
+.sec3 .soft{
+    display:block;
+    color:yellow;
+    font-weight:bolder;
+    /*background-image: url("portfolio1.jpg");*/
+   /* background-repeat: np-repeat;*/
+    height:200px;
+    width:300px;
+    text-align: center;
+    padding-top:50px;
+    box-shadow:2px 2px 3px 3px rgb(216, 124, 4);
+
+}
+footer{
+    background-color:grey;
+    height:100px;
+}
+footer .diva{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    gap:15px;
+}
+footer .diva .whatsapp:hover{
+        animation-name:fontawesome;
+    animation-duration:1s;
+    animation-timing-function:ease-in;
+    animation-iteration-count:linear;
+    animation-fill-mode:forwards;
+}
+
+footer .diva .facebook:hover{
+        animation-name:fontawesome;
+    animation-duration:1s;
+    animation-timing-function:ease-in;
+    animation-iteration-count:linear;
+    animation-fill-mode:forwards;
+}
+
+footer .diva .instagram:hover{
+        animation-name:fontawesome;
+    animation-duration:1s;
+    animation-timing-function:ease-in;
+    animation-iteration-count:linear;
+    animation-fill-mode:forwards;
+}
+@keyframes fontawesome{
+    from{
+        transform:scale(1);
+    }
+    to{
+        transform:scale(1.5);
+    }
+}
+.copyrights{
+    text-align: center;
+}
+
+.projects .projectsa0
+{
+    height:30px;
+    margin-left:30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:red;
+    background-color:lightgray;
+    font-family: algerian;
+    font-weight: bolder;
+    font-size: larger;
+    box-shadow:2px 2px 3px 4px violet;
+
+}
+.projectsa{
+    width:500px;
+    background-color: whitesmoke;
+    box-shadow:2px 2px 3px 4px black;
+    margin-left:50px;
+
+}
+.experiencesa{
+    width:500px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bolder;
+    box-shadow:2px 2px 3px 4px rgb(92, 1, 1);
+    margin-left:50px;
+
+}
+.experiencesa1{
+        height:30px;
+    margin-left:30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:red;
+    background-color:lightgray;
+    font-family: algerian;
+    font-weight: bolder;
+    font-size: larger;
+    box-shadow:2px 2px 3px 4px rgb(233, 45, 233);
+
+}
+.contactusa{
+     height:30px;
+    margin-left:30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:red;
+    background-color:lightgray;
+    font-family: algerian;
+    font-weight: bolder;
+    font-size: larger;
+    box-shadow:2px 2px 3px 4px violet;
+}
+.contactusa1{
+    height:fit-content;
+    width:fit-content;
+    display:block;
+    background-image: linear-gradient(to right top,rgb(165, 10, 95),rgb(64, 21, 182),rgb(25, 228, 150),rgb(143, 235, 23),rgb(123, 4, 4));
+    font-family: algerian;
+    font-weight: bolder;
+    box-shadow:-3.5px -3.5px 1px 4px rgb(57, 54, 57);
+    margin-left:50px;
+}
