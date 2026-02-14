@@ -2,8 +2,9 @@
 {
         body{
         font-size:20px;
-        margin-right:100px;
-        margin-left:100px;
+        position:relative;
+        right:20px;
+        left:20px;
         background-color:white;
         
 
