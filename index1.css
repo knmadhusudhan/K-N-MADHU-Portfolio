@@ -1,7 +1,7 @@
 @media (orientation:portrait)
 {
         body{
-        font-size:17px;
+        font-size:20px;
         margin-right:0px;
         margin-left:100px;
         background-color:white;
@@ -21,7 +21,7 @@
         list style manage in nav bar 
         nav bar flexing, hovering,anchor decoration
         smooth animation */
-        
+        /*
         .navbar {
             height: 100px;
             background-image: linear-gradient(to left, pink, yellow, skyblue);
@@ -75,7 +75,7 @@
         }
                 /* home css code
         image radius height width designing,flexing,button,hovering,smoooth,animation */
-        
+        /*
        #bars{
         font-size:40px;
         float:inline-end;
@@ -83,6 +83,9 @@
        #bars:active+.navbar{
         display: block;
         
+       }*/
+       header .navbar ul{
+        display:none;
        }
         .homea1 {
             height: 200px;
@@ -164,10 +167,11 @@
             text-align: center;
             border-radius: 20px;
             text-indent: 100px;
-            height:150px;
-            width:350px;
+            height:fit-content;
+            width:fit-content;
             margin-top:0px;
             padding-top:20px;
+            margin-bottom:50px;
         }
     .data{
         display:flex;
