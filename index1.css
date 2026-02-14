@@ -104,6 +104,8 @@
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             text-align: center;
             border-radius: 20px;
+            width:300px;
+            height:300px;
         }
         
         .home .homea{
@@ -120,7 +122,8 @@
             background-color: lightgrey;
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             text-align:center;
-            border-radius: 20px
+            border-radius: 20px;
+            color:darkgreen;
             
             
 
@@ -165,8 +168,9 @@
             text-align: center;
             border-radius: 20px;
             text-indent: 100px;
-            height:fit-content;
-            width:fit-content;
+            height:350px;
+            width:350;
+            overflow-x:auto;
             margin-top:0px;
             padding-top:20px;
             margin-bottom:50px;
@@ -387,6 +391,7 @@
 }
 .contactusa{
      height:30px;
+     width:fit-content;
     margin-left:10px;
     display:flex;
     justify-content: center;
