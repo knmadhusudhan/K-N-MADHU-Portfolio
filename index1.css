@@ -390,8 +390,7 @@
 
 }
 .contactusa{
-     height:30px;
-     width:fit-content;
+    height:30px;
     margin-left:10px;
     display:flex;
     justify-content: center;
@@ -420,7 +419,7 @@
 }
 footer{
     background-color:grey;
-    height:50px;
+    height:100px;
     width:2000px;
 }
 footer .diva{
