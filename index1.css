@@ -1,27 +1,104 @@
-@media (orientation:portrait) {
-  body{
-    display: flex;
+/* =========================
+   MOBILE RESPONSIVE DESIGN
+   ========================= */
+
+@media (max-width: 768px) {
+
+  body {
+    font-size: 16px;
+  }
+
+  header {
+    height: auto;
+    padding: 10px;
+    text-align: center;
+  }
+
+  header h1 {
+    font-size: 18px;
+  }
+
+  /* HOME SECTION */
+  .home .homea,
+  .homeb {
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    gap: 20px;
+    margin-top: 80px;
   }
-  .homeb{
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
+
+  .homea1,
+  .homeb2 {
+    width: 90%;
+    height: auto;
+    margin: auto;
   }
-  header{
-    position:fixed;
-    top:0px;
-    right:0px;
-    left:0px;
+
+  .homea2,
+  .homeb1 {
+    margin: 10px;
+    padding: 20px;
+    font-size: 14px;
   }
-  footer{
-    position:relative;
-    bottom:0px;
-    right:0px;
-    left:0px;
+
+  /* ABOUT SECTION */
+  .about .data {
+    flex-direction: column;
+    gap: 20px;
   }
+
+  .dataa1 {
+    width: 90%;
+  }
+
+  .dataa2 {
+    margin: 10px;
+    text-indent: 0;
+    font-size: 14px;
+  }
+
+  .aboutb {
+    margin: 10px;
+  }
+
+  /* SKILLS */
+  .sec3 .container3,
+  .sec3 .soft {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  /* PROJECTS */
+  .projectsa,
+  .experiencesa,
+  .contactusa1 {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+  }
+
+  /* CONTACT IMAGE */
+  .contactus img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+
+  /* GENERAL IMAGES */
+  img {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+
+  /* FOOTER */
+  footer {
+    height: auto;
+    padding: 10px;
+  }
+
+  .diva {
+    flex-direction: row;
+    gap: 10px;
+  }
+
 }
