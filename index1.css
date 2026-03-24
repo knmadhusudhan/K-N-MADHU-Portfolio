@@ -21,15 +21,15 @@
   /* HOME SECTION */
   .home .homea,
   .homeb {
-    flex-direction: column-reverse;
+    flex-direction: column;
     gap: 20px;
     margin-top: 80px;
   }
 
   .homea1,
   .homeb2 {
-    width: 40%;
-    height: 60%;
+    width: 90%;
+    height: auto;
     margin: auto;
   }
 
@@ -47,8 +47,7 @@
   }
 
   .dataa1 {
-    width: 40%;
-    height:60%;
+    width: 90%;
   }
 
   .dataa2 {
@@ -79,15 +78,15 @@
 
   /* CONTACT IMAGE */
   .contactus img {
-    width:40%;
-    height:60%;
+    width: 100%;
+    height: auto;
     margin: 0;
   }
 
   /* GENERAL IMAGES */
   img {
-    width: 40%;
-    height:60%;
+    width: 100%;
+    height: auto;
     margin-left: 0;
   }
 
@@ -101,6 +100,5 @@
     flex-direction: row;
     gap: 10px;
   }
-  
 
 }
