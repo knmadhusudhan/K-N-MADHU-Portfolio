@@ -476,8 +476,9 @@ bottom: 0px;
 footer .diva{
 display:flex;
 justify-content: center;
-align-items:center;
+
 gap:15px;
+
 }
 footer .diva .whatsapp:hover{
 animation-name:fontawesome;
