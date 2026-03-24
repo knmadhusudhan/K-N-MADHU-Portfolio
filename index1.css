@@ -47,7 +47,8 @@
   }
 
   .dataa1 {
-    width: 90%;
+    width: 40%;
+    height:60%;
   }
 
   .dataa2 {
@@ -78,15 +79,15 @@
 
   /* CONTACT IMAGE */
   .contactus img {
-    width:60%;
-    height:80%;
+    width:40%;
+    height:60%;
     margin: 0;
   }
 
   /* GENERAL IMAGES */
   img {
-    width: 60%;
-    height:80%;
+    width: 40%;
+    height:60%;
     margin-left: 0;
   }
 
