@@ -1,1 +1,283 @@
-body{   background-color: #0f172a;   font-size:20px; }    /* header css */ header{  position:fixed;  left:0px;  right:0px;  top:0px;  background-color:#b39e7e;  box-shadow: 2px 2px 3px 3px rgb(0,0,0,0.5);  font-weight: bolder;  font-family:Verdana, Geneva, Tahoma, sans-serif;  padding-top:0px;  margin-top:0px;  height:50px; } /* home css code image radius height width designing,flexing,button,hovering,smoooth,animation */ .homea1 {  height: 300px;  width: 300px;  border-radius: 15%;  margin-top: 50px;  margin-left: 50px;  border:solid 5px #0f172a;   }  .homea2 {  margin: 100px;  padding-top: 50px;  padding-bottom: 50px;  color:whitesmoke;  font-family:'Times New Roman';  text-align: center;  border-radius: 20px;  font-weight:bolder;    }  .home .homea{  display: flex;  justify-content: center;  align-items: center;  gap: 50px;  margin-top:75px; } .homeb1{  margin: 100px;  padding-top: 50px;  padding-bottom: 50px;  font-family:'Times New Roman';  text-align: center;  border-radius: 20px;  font-weight:bolder;  color:whitesmoke;    } .homeb2{  height:300px;  width:300px;  border-radius:0px 40px;  border:solid 5px #0f172a;   } .homeb{  display:flex;  justify-content:center;  align-items:center;  gap:50px;  } button{  height:35px;  width:80px;  border-radius:25px;  background-color:#1e3a8a;  color:#ffffff;  font-family: algerian; } button:hover{  background-color: darkorange;  font-size:20px;  font-family: algerian;  animation-name: button;  animation-duration: 4s;  animation-timing-function: ease-in-out;  animation-iteration-count: linear;  animation-fill-mode:forwards; } @keyframes button{  from{    background-color:#0f172a;  box-shadow: 2px 2px 3px 3px orange;  }  to{    background-color:#0f172a;  box-shadow: 2px 2px 3px 3px orange;  } }  /* about page designing with colors and effects */ /*heading*/ .aboutheading{  color:rgb(119, 104, 104);  height:30px;  width:fit-content;  display:flex;  align-items: center;  justify-content: center;  background-color:rgb(225, 204, 204);  font-family: Verdana, Geneva, Tahoma, sans-serif;  font-weight:bolder;  text-align: center;  box-shadow: 2px 2px 3px 3px rgb(34, 136, 196,0.3); } .dataa1{  margin-top:20px;  border-radius:10px;  border:solid 5px #0f172a;  width:500px;    } .dataa2{  margin-top:150px;  font-family:'Times New Roman';  text-align: center;  border-radius: 20px;  text-indent: 100px;  font-weight:bolder;  color:whitesmoke;    } .about .data{  display:flex;  justify-content: center;  align-items:center;  gap:100px; }  .about .aboutb{  margin-left:20px;   }  .span{  padding-left:20px;  padding-right:20px;  color:purple;  background-color: yellow;  }  /* about us css page */  .sec1 h2{  height:30px;   width:fit-content;  margin-left:30px;  display:flex;  justify-content: center;  align-items: center;  color:rgb(187, 255, 0);  background-color:lightgray;  font-family: algerian;  font-weight: bolder;  font-size: larger;  box-shadow:2px 2px 3px 4px violet;  }  .container2  p{   font-size:medium;  font-weight:bolder;  margin-right:100px;  margin-top:100px;  word-spacing:10px;  border:solid 5px darkorange;   } .continer2{  display:flex;  gap:100px;  justify-content: center;  align-items: center;    } img{  height:400px;  width:400px; /* width:300px;*/ border-radius:0px 50px; margin-left: 100px;  } .container  h2{  justify-content: flex-end;  padding-left:20px; margin-left:20px; margin-top:0px; padding-top:0px;   }  /* skills page css */ .sec3 h2{  color:rgb(119, 104, 104);  height:30px;   width:fit-content;  display:flex;  align-items: center;  justify-content: center;  background-color:rgb(225, 204, 204);  font-family: Verdana, Geneva, Tahoma, sans-serif;  font-weight:bolder;  text-align: center;  box-shadow: 2px 2px 3px 3px rgb(34, 136, 196,0.3);  } .sec3 .container3,.image{ display:inline; height:300px; width:200px; color:rgb(237, 245, 13,0.7); }  /* h3a css*/ .sec3 .container3 .h3a{   display:flex;   align-items: center;   justify-content: center; height:20px; width:200px; background-image: url("portfolio3.jpg"); } /* h3b css*/ .sec3 .container3 .h3b{   display:flex;   align-items: center;   justify-content: center; height:20px; width:200px; background-image: url("portfolio3.jpg"); } /* h3c css*/ .sec3 .container3 .h3c{  /* display:flex;   align-items: center;   justify-content: center; problem*/   text-align: center; height:20px; width:200px; background-image: url("portfolio3.jpg"); } /* h3d css*/ .sec3 .container3 .h3d{   display:flex;   align-items: center;   justify-content: center; height:20px; width:200px; background-image: url("portfolio3.jpg"); }   /*about us my hobbies part css code*/ .aboutb .h4{  color:purple;  font-size:12px;  background-image:linear-gradient(to right bottom,yellow,green,skyblue,orange,darksalmon,darkgreen,darkorange);  height:25px;  width:200px;  font-family: algerian;  font-weight: bolder;  display:flex;  align-items: center;  justify-content: center;   }  /*   soft skills css code   */   .technicalskills{  color:rgba(245, 13, 237, 0.6); background-color:black; font-weight: bolder; font-size: 15px; font-family: algerian; margin-top:35px; width:150px; display:flex; align-items: center; justify-content: center;   }   .softskills{ color:whitesmoke; background-color:black; font-weight: bolder; font-size: 15px; font-family: algerian; margin-top:20px; width:150px; height:20px; display:flex; align-items: center; justify-content: center; color:rgba(245, 13, 237, 0.6);   }   .sec3 .container3{ margin-left:50px; display:block;    /* color:yellow;*/ font-weight:bolder; /*background-image: url("portfolio1.jpg");*/    /* background-repeat: np-repeat;*/ height:200px; width:300px; text-align: center; padding-top:50px; box-shadow:2px 2px 3px 3px rgb(216, 124, 4,0.5);   }    /*   soft skills css code   */ .sec3 .soft{ display:block; color:rgb(237, 245, 13,0.7); font-weight:bolder; text-align: center; margin-left:50px; font-size:15px;    } .sec3 .soft .softa{ height:25px;   display:flex;   align-items: center;   justify-content: center; height:20px; width:200px; background-image: url("portfolio3.jpg"); } .sec3 .soft .softb{ height:25px;   display:flex;   align-items: center;   justify-content: center; height:20px; width:200px; background-image: url("portfolio3.jpg"); } .sec3 .soft .softc{ height:25px;   display:flex;   align-items: center;   justify-content: center; height:20px; width:200px; background-image: url("portfolio3.jpg"); } .sec3 .soft .softd{ height:25px;   display:flex;   align-items: center;   justify-content: center; height:20px; width:200px; background-image: url("portfolio3.jpg"); }     .sec3 .soft{ display:block; color:rgb(237, 245, 13,0.7); font-weight:bolder; /*background-image: url("portfolio1.jpg");*/    /* background-repeat: np-repeat;*/ height:200px; width:300px; text-align: center; padding-top:50px; box-shadow:2px 2px 3px 3px rgb(216, 124, 4,0.5);  } .projects .projectsa0 {  color:rgb(119, 104, 104);  height:30px;   width:fit-content;  display:flex;  align-items: center;  justify-content: center;  background-color:rgb(225, 204, 204);  font-family: Verdana, Geneva, Tahoma, sans-serif;  font-weight:bolder;  text-align: center;  box-shadow: 2px 2px 3px 3px rgb(34, 136, 196,0.3); } .projectsa{ width:500px; color: whitesmoke; box-shadow:2px 2px 3px 4px black; margin-left:100px; padding:50px;   } .experiencesa{ width:500px; color: whitesmoke; box-shadow:2px 2px 3px 4px black; margin-left:100px; padding:50px;   } .experiencesa1{   color:rgb(119, 104, 104);  height:30px;   width:fit-content;  display:flex;  align-items: center;  justify-content: center;  background-color:rgb(225, 204, 204);  font-family: Verdana, Geneva, Tahoma, sans-serif;  font-weight:bolder;  text-align: center;  box-shadow: 2px 2px 3px 3px rgb(34, 136, 196,0.3);  } .contactusa{  color:rgb(119, 104, 104);  height:30px;   width:fit-content;  display:flex;  align-items: center;  justify-content: center;  background-color:rgb(225, 204, 204);  font-family: Verdana, Geneva, Tahoma, sans-serif;  font-weight:bolder;  text-align: center;  box-shadow: 2px 2px 3px 3px rgb(34, 136, 196,0.3); } .contactusa1{ width:500px; color: whitesmoke; box-shadow:2px 2px 3px 4px black; margin-left:100px; padding:50px;  } .contactus img{   height:300px;   width:200px; } footer{ background-color:rgb(180, 167, 167); height:70px; position:relative; left:0px; right:0px; bottom: 0px; } footer .diva{ display:flex; justify-content: center; padding-bottom:10px; gap:15px;  } footer .diva .whatsapp:hover{ animation-name:fontawesome; animation-duration:1s; animation-timing-function:ease-in; animation-iteration-count:linear; animation-fill-mode:forwards; }  footer .diva .facebook:hover{ animation-name:fontawesome; animation-duration:1s; animation-timing-function:ease-in; animation-iteration-count:linear; animation-fill-mode:forwards; }  footer .diva .instagram:hover{ animation-name:fontawesome; animation-duration:1s; animation-timing-function:ease-in; animation-iteration-count:linear; animation-fill-mode:forwards; } @keyframes fontawesome{ from{ transform:scale(1); } to{ transform:scale(1.3); } } .copyrights{ text-align: center; }                                                                                                                                                                                                                                                                                                                                                                                                                                       
+body{
+  background-color: #0f172a;
+  font-size:20px;
+}
+
+/* header css */
+header{
+  position:fixed;
+  left:0px;
+  right:0px;
+  top:0px;
+  background-color:#b39e7e;
+  box-shadow: 2px 2px 3px 3px rgb(0,0,0,0.5);
+  font-weight: bolder;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  padding-top:0px;
+  margin-top:0px;
+  height:50px;
+}
+
+/* home section */
+.homea1 {
+  height: 300px;
+  width: 300px;
+  border-radius: 15%;
+  margin-top: 50px;
+  margin-left: 50px;
+  border:solid 5px #0f172a;
+}
+
+.homea2 {
+  margin: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color:whitesmoke;
+  font-family:'Times New Roman';
+  text-align: center;
+  border-radius: 20px;
+  font-weight:bolder;
+}
+
+.home .homea{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top:75px;
+}
+
+.homeb1{
+  margin: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family:'Times New Roman';
+  text-align: center;
+  border-radius: 20px;
+  font-weight:bolder;
+  color:whitesmoke;
+}
+
+.homeb2{
+  height:300px;
+  width:300px;
+  border-radius:0px 40px;
+  border:solid 5px #0f172a;
+}
+
+.homeb{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:50px;
+}
+
+/* button */
+button{
+  height:35px;
+  width:80px;
+  border-radius:25px;
+  background-color:#1e3a8a;
+  color:#ffffff;
+  font-family: algerian;
+}
+
+button:hover{
+  background-color: darkorange;
+  font-size:20px;
+  font-family: algerian;
+  animation-name: button;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: linear;
+  animation-fill-mode:forwards;
+}
+
+@keyframes button{
+  from{
+    background-color:#0f172a;
+    box-shadow: 2px 2px 3px 3px orange;
+  }
+  to{
+    background-color:#0f172a;
+    box-shadow: 2px 2px 3px 3px orange;
+  }
+}
+
+/* about */
+.aboutheading{
+  color:rgb(119, 104, 104);
+  height:30px;
+  width:fit-content;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-color:rgb(225, 204, 204);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight:bolder;
+  text-align: center;
+  box-shadow: 2px 2px 3px 3px rgb(34, 136, 196,0.3);
+}
+
+.dataa1{
+  margin-top:20px;
+  border-radius:10px;
+  border:solid 5px #0f172a;
+  width:500px;
+}
+
+.dataa2{
+  margin-top:150px;
+  font-family:'Times New Roman';
+  text-align: center;
+  border-radius: 20px;
+  text-indent: 100px;
+  font-weight:bolder;
+  color:whitesmoke;
+}
+
+.about .data{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  gap:100px;
+}
+
+.about .aboutb{
+  margin-left:20px;
+}
+
+/* general image */
+img{
+  height:400px;
+  width:400px;
+  border-radius:0px 50px;
+  margin-left: 100px;
+}
+
+/* skills */
+.sec3 h2{
+  color:rgb(119, 104, 104);
+  height:30px;
+  width:fit-content;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-color:rgb(225, 204, 204);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight:bolder;
+  text-align: center;
+  box-shadow: 2px 2px 3px 3px rgb(34, 136, 196,0.3);
+}
+
+.sec3 .container3{
+  margin-left:50px;
+  display:block;
+  font-weight:bolder;
+  height:200px;
+  width:300px;
+  text-align: center;
+  padding-top:50px;
+  box-shadow:2px 2px 3px 3px rgb(216, 124, 4,0.5);
+}
+
+/* skill items */
+.sec3 .container3 .h3a,
+.sec3 .container3 .h3b,
+.sec3 .container3 .h3c,
+.sec3 .container3 .h3d{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height:20px;
+  width:200px;
+  background-image: url("portfolio3.jpg");
+}
+
+/* hobbies */
+.aboutb .h4{
+  color:purple;
+  font-size:12px;
+  background-image:linear-gradient(to right bottom,yellow,green,skyblue,orange,darksalmon,darkgreen,darkorange);
+  height:25px;
+  width:200px;
+  font-family: algerian;
+  font-weight: bolder;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* soft skills */
+.sec3 .soft{
+  display:block;
+  color:rgb(237, 245, 13,0.7);
+  font-weight:bolder;
+  text-align: center;
+  margin-left:50px;
+  font-size:15px;
+  height:200px;
+  width:300px;
+  padding-top:50px;
+  box-shadow:2px 2px 3px 3px rgb(216, 124, 4,0.5);
+}
+
+/* projects */
+.projectsa{
+  width:500px;
+  color: whitesmoke;
+  box-shadow:2px 2px 3px 4px black;
+  margin-left:100px;
+  padding:50px;
+}
+
+/* experience */
+.experiencesa{
+  width:500px;
+  color: whitesmoke;
+  box-shadow:2px 2px 3px 4px black;
+  margin-left:100px;
+  padding:50px;
+}
+
+/* contact */
+.contactusa1{
+  width:500px;
+  color: whitesmoke;
+  box-shadow:2px 2px 3px 4px black;
+  margin-left:100px;
+  padding:50px;
+}
+
+.contactus img{
+  height:300px;
+  width:200px;
+}
+
+/* footer */
+footer{
+  background-color:rgb(180, 167, 167);
+  height:70px;
+  position:relative;
+}
+
+footer .diva{
+  display:flex;
+  justify-content: center;
+  padding-bottom:10px;
+  gap:15px;
+}
+
+footer .diva a:hover{
+  animation-name:fontawesome;
+  animation-duration:1s;
+}
+
+@keyframes fontawesome{
+  from{ transform:scale(1); }
+  to{ transform:scale(1.3); }
+}
+
+.copyrights{
+  text-align: center;
+}
